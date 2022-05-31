@@ -36,8 +36,6 @@ class MainActivity : AppCompatActivity(), MainActivityContractMVP.View {
                onError("Пусто! Введите значения в поля!")
             } else{
                presenterMVP.logIn(emailS, passS)
-                presenterMVP.logIn(emailS, passS)
-
             }
         }
     }
